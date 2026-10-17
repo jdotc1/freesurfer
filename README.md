@@ -1,3 +1,13 @@
+## Structural MRI analysis and cortical surfaces
+
+This is a development fork of [FreeSurfer](https://github.com/freesurfer/freesurfer), the Laboratory for Computational Neuroimaging's suite for processing and visualizing brain imaging data. Upstream includes cortical and subcortical segmentation, surface reconstruction, registration, and group morphometry tools, supporting workflows that connect MRI volumes with anatomical measurements.
+
+**Contribution to review:** [PR #1485](https://github.com/freesurfer/freesurfer/pull/1485) proposes passing SynthStrip Docker arguments without an intermediate shell.
+
+Begin with the [official FreeSurfer wiki](https://surfer.nmr.mgh.harvard.edu/fswiki) for installation and tool documentation, or the linked build guide below for source development. Original credits, support routes, and license terms are preserved. The [branch comparison](https://github.com/freesurfer/freesurfer/compare/dev...jdotc1:dev) shows this fork's `dev` branch.
+
+---
+
 <div align="center">
   <img src="https://surfer.nmr.mgh.harvard.edu/pub/data/tmp/brain.png">
   <p align="center">An open-source software suite for processing human brain MRI</p>
